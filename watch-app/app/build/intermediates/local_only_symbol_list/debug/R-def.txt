@@ -1,0 +1,35 @@
+R_DEF: Internal format may change without notice
+local
+color accent_color
+color background_color
+color black
+color card_background
+color error_color
+color primary_color
+color primary_dark
+color success_color
+color text_primary
+color text_secondary
+color warning_color
+color white
+id btnSendData
+id btnStartMonitoring
+id btnStopMonitoring
+id tvConnectionStatus
+id tvHeartRate
+id tvSteps
+layout activity_main
+string app_name
+string connected
+string connection_status
+string disconnected
+string heart_rate
+string monitoring
+string send_data
+string start_monitoring
+string steps
+string stop_monitoring
+string stopped
+style Theme.WatchSleepMonitor
+xml backup_rules
+xml data_extraction_rules

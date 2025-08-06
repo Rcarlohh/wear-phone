@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "com.example.sleepmonitor.app-merged_res-54:/layout_activity_main.xml.flat",
+        "source": "com.example.sleepmonitor.app-main-56:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.sleepmonitor.app-merged_res-54:/drawable_ic_steps.xml.flat",
+        "source": "com.example.sleepmonitor.app-main-56:/drawable/ic_steps.xml"
+    },
+    {
+        "merged": "com.example.sleepmonitor.app-merged_res-54:/drawable_ic_heart.xml.flat",
+        "source": "com.example.sleepmonitor.app-main-56:/drawable/ic_heart.xml"
+    },
+    {
+        "merged": "com.example.sleepmonitor.app-merged_res-54:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.sleepmonitor.app-main-56:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.sleepmonitor.app-merged_res-54:/xml_backup_rules.xml.flat",
+        "source": "com.example.sleepmonitor.app-main-56:/xml/backup_rules.xml"
+    }
+]

@@ -1,0 +1,57 @@
+com.example.sleepmonitor.app-room-runtime-2.6.1-0 C:\Users\range\.gradle\caches\transforms-3\1039b3dcd0c19045df8f04aa3c606e4f\transformed\room-runtime-2.6.1\res
+com.example.sleepmonitor.app-startup-runtime-1.1.1-1 C:\Users\range\.gradle\caches\transforms-3\194bc0a3b4f5fe9245eb186c8097b2ba\transformed\startup-runtime-1.1.1\res
+com.example.sleepmonitor.app-appcompat-1.6.1-2 C:\Users\range\.gradle\caches\transforms-3\1ae08651db4bbb07f10e1945a5f6d854\transformed\appcompat-1.6.1\res
+com.example.sleepmonitor.app-navigation-runtime-ktx-2.7.6-3 C:\Users\range\.gradle\caches\transforms-3\296d784a24fbb7a4a370fce8ac47e869\transformed\navigation-runtime-ktx-2.7.6\res
+com.example.sleepmonitor.app-lifecycle-process-2.7.0-4 C:\Users\range\.gradle\caches\transforms-3\2e920ffd14558d116a290e3519cdc2c1\transformed\lifecycle-process-2.7.0\res
+com.example.sleepmonitor.app-drawerlayout-1.1.1-5 C:\Users\range\.gradle\caches\transforms-3\39deca6098fbf2130e7dec3ba94662aa\transformed\drawerlayout-1.1.1\res
+com.example.sleepmonitor.app-appcompat-resources-1.6.1-6 C:\Users\range\.gradle\caches\transforms-3\39fd2bd3564a4065d7894aeb2b8a1e49\transformed\appcompat-resources-1.6.1\res
+com.example.sleepmonitor.app-lifecycle-livedata-core-2.7.0-7 C:\Users\range\.gradle\caches\transforms-3\47c90b14a701913f48c158ea96799aba\transformed\lifecycle-livedata-core-2.7.0\res
+com.example.sleepmonitor.app-emoji2-views-helper-1.2.0-8 C:\Users\range\.gradle\caches\transforms-3\4d0f4a01ec385deab33defb42c431dfd\transformed\emoji2-views-helper-1.2.0\res
+com.example.sleepmonitor.app-constraintlayout-2.1.4-9 C:\Users\range\.gradle\caches\transforms-3\508bc57a17fbd2e1a4dee4f69911074e\transformed\constraintlayout-2.1.4\res
+com.example.sleepmonitor.app-activity-1.8.2-10 C:\Users\range\.gradle\caches\transforms-3\51b5ffb98e91a3c11828298ab2e0d467\transformed\activity-1.8.2\res
+com.example.sleepmonitor.app-lifecycle-viewmodel-savedstate-2.7.0-11 C:\Users\range\.gradle\caches\transforms-3\542bdf815b6422acbd500e4da592f5e6\transformed\lifecycle-viewmodel-savedstate-2.7.0\res
+com.example.sleepmonitor.app-core-1.12.0-12 C:\Users\range\.gradle\caches\transforms-3\5490b645e9d6a61333b77d70f2a2a530\transformed\core-1.12.0\res
+com.example.sleepmonitor.app-profileinstaller-1.3.0-13 C:\Users\range\.gradle\caches\transforms-3\5b5fb7cd0f771a365fe040bc04b82cf3\transformed\profileinstaller-1.3.0\res
+com.example.sleepmonitor.app-lifecycle-livedata-ktx-2.7.0-14 C:\Users\range\.gradle\caches\transforms-3\5ca7eaccc2259177af88f29131ba19be\transformed\lifecycle-livedata-ktx-2.7.0\res
+com.example.sleepmonitor.app-annotation-experimental-1.3.0-15 C:\Users\range\.gradle\caches\transforms-3\6742e91110afab56bce97e1c34c4e518\transformed\annotation-experimental-1.3.0\res
+com.example.sleepmonitor.app-sqlite-2.4.0-16 C:\Users\range\.gradle\caches\transforms-3\6c6ff80d9fd3bf7ec54eb99908e3fdf3\transformed\sqlite-2.4.0\res
+com.example.sleepmonitor.app-navigation-ui-ktx-2.7.6-17 C:\Users\range\.gradle\caches\transforms-3\73d4ca2c8e3541e5c15cab9432fec4f7\transformed\navigation-ui-ktx-2.7.6\res
+com.example.sleepmonitor.app-savedstate-1.2.1-18 C:\Users\range\.gradle\caches\transforms-3\793a1440aa5a351ef98db48607edac49\transformed\savedstate-1.2.1\res
+com.example.sleepmonitor.app-navigation-common-ktx-2.7.6-19 C:\Users\range\.gradle\caches\transforms-3\7d6a72716591f42d186a842b887f00cf\transformed\navigation-common-ktx-2.7.6\res
+com.example.sleepmonitor.app-lifecycle-viewmodel-2.7.0-20 C:\Users\range\.gradle\caches\transforms-3\7dc2bacf46446c8c34ee8556749628a7\transformed\lifecycle-viewmodel-2.7.0\res
+com.example.sleepmonitor.app-navigation-ui-2.7.6-21 C:\Users\range\.gradle\caches\transforms-3\822ef5295c54b3fc6575f1874f116e7d\transformed\navigation-ui-2.7.6\res
+com.example.sleepmonitor.app-core-runtime-2.2.0-22 C:\Users\range\.gradle\caches\transforms-3\8429a2eb1031e6e8c75fd8b8851972ac\transformed\core-runtime-2.2.0\res
+com.example.sleepmonitor.app-savedstate-ktx-1.2.1-23 C:\Users\range\.gradle\caches\transforms-3\8b4279bdf46be1cf2c3f476df3ef837b\transformed\savedstate-ktx-1.2.1\res
+com.example.sleepmonitor.app-core-ktx-1.12.0-24 C:\Users\range\.gradle\caches\transforms-3\8c2f9fba3fb24e61efd5f277476eaea3\transformed\core-ktx-1.12.0\res
+com.example.sleepmonitor.app-navigation-fragment-2.7.6-25 C:\Users\range\.gradle\caches\transforms-3\92f5ee6ea4b0ec34d33ab14bc169e311\transformed\navigation-fragment-2.7.6\res
+com.example.sleepmonitor.app-coordinatorlayout-1.1.0-26 C:\Users\range\.gradle\caches\transforms-3\9332dd09b4e80b020cfecbda28f6ba54\transformed\coordinatorlayout-1.1.0\res
+com.example.sleepmonitor.app-sqlite-framework-2.4.0-27 C:\Users\range\.gradle\caches\transforms-3\955f0ae6a36dcbe4546ef591dc79b0d9\transformed\sqlite-framework-2.4.0\res
+com.example.sleepmonitor.app-slidingpanelayout-1.2.0-28 C:\Users\range\.gradle\caches\transforms-3\96682a092f0523acbff581d51d8c6593\transformed\slidingpanelayout-1.2.0\res
+com.example.sleepmonitor.app-lifecycle-livedata-core-ktx-2.7.0-29 C:\Users\range\.gradle\caches\transforms-3\9eefda2ddbfb19aeaae767c78bc44299\transformed\lifecycle-livedata-core-ktx-2.7.0\res
+com.example.sleepmonitor.app-window-1.0.0-30 C:\Users\range\.gradle\caches\transforms-3\a425037ec51ceb36230797e634bc297d\transformed\window-1.0.0\res
+com.example.sleepmonitor.app-room-ktx-2.6.1-31 C:\Users\range\.gradle\caches\transforms-3\a9720b61993bb590d4a5011512a7c7bc\transformed\room-ktx-2.6.1\res
+com.example.sleepmonitor.app-material-1.11.0-32 C:\Users\range\.gradle\caches\transforms-3\a9838fd12d930687e6917e413d05bcf9\transformed\material-1.11.0\res
+com.example.sleepmonitor.app-cardview-1.0.0-33 C:\Users\range\.gradle\caches\transforms-3\b203de62faa9cec647d20a118c4857ce\transformed\cardview-1.0.0\res
+com.example.sleepmonitor.app-navigation-fragment-ktx-2.7.6-34 C:\Users\range\.gradle\caches\transforms-3\b218ff9a2565b54b758f55a91ebd7082\transformed\navigation-fragment-ktx-2.7.6\res
+com.example.sleepmonitor.app-viewpager2-1.1.0-beta02-35 C:\Users\range\.gradle\caches\transforms-3\b83c5e10bfbfa9327111cbeb74668362\transformed\viewpager2-1.1.0-beta02\res
+com.example.sleepmonitor.app-customview-poolingcontainer-1.0.0-36 C:\Users\range\.gradle\caches\transforms-3\c17a98ab960aebe0c15d2d93b14b9f64\transformed\customview-poolingcontainer-1.0.0\res
+com.example.sleepmonitor.app-navigation-runtime-2.7.6-37 C:\Users\range\.gradle\caches\transforms-3\c2b51f5d31d757b9b13bfbef592b0a45\transformed\navigation-runtime-2.7.6\res
+com.example.sleepmonitor.app-fragment-ktx-1.6.2-38 C:\Users\range\.gradle\caches\transforms-3\ca9160855414e25a23bd29a0dc929d41\transformed\fragment-ktx-1.6.2\res
+com.example.sleepmonitor.app-fragment-1.6.2-39 C:\Users\range\.gradle\caches\transforms-3\cace3d21ce2ca2295a5bcddc4f121eac\transformed\fragment-1.6.2\res
+com.example.sleepmonitor.app-emoji2-1.2.0-40 C:\Users\range\.gradle\caches\transforms-3\cef2556a3e4f69125db25bc898eaad5d\transformed\emoji2-1.2.0\res
+com.example.sleepmonitor.app-lifecycle-runtime-ktx-2.7.0-41 C:\Users\range\.gradle\caches\transforms-3\d619fd759ab1b047071c2c1c638d4fd6\transformed\lifecycle-runtime-ktx-2.7.0\res
+com.example.sleepmonitor.app-lifecycle-runtime-2.7.0-42 C:\Users\range\.gradle\caches\transforms-3\d7fdc32335822acca9d1f54ed8e9f5d3\transformed\lifecycle-runtime-2.7.0\res
+com.example.sleepmonitor.app-lifecycle-viewmodel-ktx-2.7.0-43 C:\Users\range\.gradle\caches\transforms-3\d9e4ffcc50ec00e50642e7fd9af6d124\transformed\lifecycle-viewmodel-ktx-2.7.0\res
+com.example.sleepmonitor.app-bluetooth-1.0.0-alpha01-44 C:\Users\range\.gradle\caches\transforms-3\dc1448d7a06e557ffa3929d6384897d0\transformed\bluetooth-1.0.0-alpha01\res
+com.example.sleepmonitor.app-transition-1.4.1-45 C:\Users\range\.gradle\caches\transforms-3\dc630c2f6d80e4614c57da8932b10120\transformed\transition-1.4.1\res
+com.example.sleepmonitor.app-navigation-common-2.7.6-46 C:\Users\range\.gradle\caches\transforms-3\dd6ce1bedd2dd41a61344f3e21927516\transformed\navigation-common-2.7.6\res
+com.example.sleepmonitor.app-recyclerview-1.3.2-47 C:\Users\range\.gradle\caches\transforms-3\f4e24aa70b4f60796ab6678e7fa32a24\transformed\recyclerview-1.3.2\res
+com.example.sleepmonitor.app-lifecycle-livedata-2.7.0-48 C:\Users\range\.gradle\caches\transforms-3\f8a4ba1eff565aba2695d8fcc9f07032\transformed\lifecycle-livedata-2.7.0\res
+com.example.sleepmonitor.app-activity-ktx-1.8.2-49 C:\Users\range\.gradle\caches\transforms-3\f9f246a6a7d49207ef0579dd93dcee83\transformed\activity-ktx-1.8.2\res
+com.example.sleepmonitor.app-pngs-50 C:\Users\range\Documents\Edel\movile app\movile-app\app\build\generated\res\pngs\debug
+com.example.sleepmonitor.app-resValues-51 C:\Users\range\Documents\Edel\movile app\movile-app\app\build\generated\res\resValues\debug
+com.example.sleepmonitor.app-packageDebugResources-52 C:\Users\range\Documents\Edel\movile app\movile-app\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.example.sleepmonitor.app-packageDebugResources-53 C:\Users\range\Documents\Edel\movile app\movile-app\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.example.sleepmonitor.app-merged_res-54 C:\Users\range\Documents\Edel\movile app\movile-app\app\build\intermediates\merged_res\debug
+com.example.sleepmonitor.app-debug-55 C:\Users\range\Documents\Edel\movile app\movile-app\app\src\debug\res
+com.example.sleepmonitor.app-main-56 C:\Users\range\Documents\Edel\movile app\movile-app\app\src\main\res

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <color name="accent_color">#FF4081</color>
+    <color name="background_color">#F5F5F5</color>
+    <color name="black">#000000</color>
+    <color name="card_background">#FFFFFF</color>
+    <color name="error_color">#F44336</color>
+    <color name="primary_color">#2196F3</color>
+    <color name="primary_dark">#1976D2</color>
+    <color name="success_color">#4CAF50</color>
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="warning_color">#FF9800</color>
+    <color name="white">#FFFFFF</color>
+    <string name="app_name">Monitoreo de Sueño</string>
+    <string name="connected">Conectado</string>
+    <string name="connection_status">Estado de Conexión</string>
+    <string name="disconnected">Desconectado</string>
+    <string name="heart_rate">Ritmo Cardíaco</string>
+    <string name="monitoring">Monitoreando</string>
+    <string name="send_data">Enviar Datos</string>
+    <string name="start_monitoring">Iniciar Monitoreo</string>
+    <string name="steps">Pasos</string>
+    <string name="stop_monitoring">Detener Monitoreo</string>
+    <string name="stopped">Detenido</string>
+    <style name="Theme.WatchSleepMonitor" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        
+        <item name="colorPrimary">@color/primary_color</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/accent_color</item>
+        <item name="colorSecondaryVariant">@color/accent_color</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <item name="android:statusBarColor" ns1:targetApi="l">?attr/colorPrimaryVariant</item>
+        
+    </style>
+</resources>

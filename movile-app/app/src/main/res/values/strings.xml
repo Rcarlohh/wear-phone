@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Monitoreo de Sueño</string>
+    <string name="connect_watch">Conectar con Galaxy Watch</string>
+    <string name="start_monitoring">Iniciar Monitoreo</string>
+    <string name="stop_monitoring">Detener Monitoreo</string>
+    <string name="heart_rate">Ritmo Cardíaco</string>
+    <string name="steps">Pasos</string>
+    <string name="sleep_quality">Calidad del Sueño</string>
+    <string name="sleep_duration">Duración del Sueño</string>
+    <string name="connection_status">Estado de Conexión</string>
+    <string name="connected">Conectado</string>
+    <string name="disconnected">Desconectado</string>
+</resources> 
