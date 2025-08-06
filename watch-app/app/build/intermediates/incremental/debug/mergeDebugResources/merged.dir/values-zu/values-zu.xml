@@ -69,8 +69,10 @@
     <string msgid="6412144553299494336" name="confirmation_overlay_a11y_description_fail">"Ukwehluleka"</string>
     <string msgid="8809042819843332546" name="confirmation_overlay_a11y_description_phone">"Ivuliwe kufoni yakho"</string>
     <string msgid="2936753235333429892" name="confirmation_overlay_a11y_description_success">"Impumelelo"</string>
+    <string msgid="3209159573327985035" name="copy">"Kopisha"</string>
     <string msgid="8038256446254964252" name="default_error_message">"Okufakwayo okungalungile"</string>
     <string name="error_icon_content_description">Iphutha</string>
+    <string msgid="1234962710353108940" name="expand_button_title">"Okuthuthukisiwe"</string>
     <string name="exposed_dropdown_menu_content_description">Bonisa imenyu yokudonsela phansi</string>
     <string name="icon_content_description">Isithonjana sebhokisi</string>
     <string msgid="6827826412747255547" name="in_progress">"Kuyaqhubeka"</string>
@@ -133,14 +135,19 @@
     <string name="mtrl_timepicker_confirm">KULUNGILE</string>
     <string msgid="542007171693138492" name="navigation_menu">"Imenyu yokuzulazula"</string>
     <string msgid="6610465462668679431" name="not_selected">"Ayikhethiwe"</string>
+    <string msgid="478774118347071097" name="not_set">"Ayisethiwe"</string>
     <string msgid="875452955155264703" name="off">"Valiwe"</string>
     <string msgid="8655164131929253426" name="on">"Vuliwe"</string>
     <string name="password_toggle_content_description">Bonisa iphasiwedi</string>
+    <string msgid="7961817945132860002" name="preference_copied">"\"<ns1:g id="SUMMARY">%1$s</ns1:g>\" kukopishelwe kuklibhodi."</string>
     <string msgid="6264217191555673260" name="search_menu_title">"Sesha"</string>
     <string msgid="6043586758067023" name="selected">"Okukhethiwe"</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="5190123168583152844" name="summary_collapsed_preference_list">"<ns1:g id="CURRENT_ITEMS">%1$s</ns1:g>, <ns1:g id="ADDED_ITEMS">%2$s</ns1:g>"</string>
     <string msgid="1672349317127674378" name="tab">"Ithebhu"</string>
     <string msgid="5946805113151406391" name="template_percent">"<ns1:g id="PERCENTAGE">%1$d</ns1:g> amaphesenti."</string>
+    <string msgid="5138405918326871307" name="v7_preference_off">"VALA"</string>
+    <string msgid="27351710992731591" name="v7_preference_on">"VULA"</string>
     <string msgid="8863821639144537553" name="ws_action_drawer_content_description">"Ikhabethe lesenzo"</string>
     <string msgid="777117228299084604" name="ws_navigation_drawer_content_description">"Ikhabethe lokuzulazula"</string>
 </resources>

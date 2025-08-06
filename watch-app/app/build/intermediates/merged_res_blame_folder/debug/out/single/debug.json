@@ -1,14 +1,14 @@
 [
     {
-        "merged": "com.example.watchsleepmonitor.app-merged_res-51:/layout_activity_main.xml.flat",
-        "source": "com.example.watchsleepmonitor.app-main-53:/layout/activity_main.xml"
+        "merged": "com.example.watchsleepmonitor.app-merged_res-55:/layout_activity_main.xml.flat",
+        "source": "com.example.watchsleepmonitor.app-main-57:/layout/activity_main.xml"
     },
     {
-        "merged": "com.example.watchsleepmonitor.app-merged_res-51:/xml_data_extraction_rules.xml.flat",
-        "source": "com.example.watchsleepmonitor.app-main-53:/xml/data_extraction_rules.xml"
+        "merged": "com.example.watchsleepmonitor.app-merged_res-55:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.watchsleepmonitor.app-main-57:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "com.example.watchsleepmonitor.app-merged_res-51:/xml_backup_rules.xml.flat",
-        "source": "com.example.watchsleepmonitor.app-main-53:/xml/backup_rules.xml"
+        "merged": "com.example.watchsleepmonitor.app-merged_res-55:/xml_backup_rules.xml.flat",
+        "source": "com.example.watchsleepmonitor.app-main-57:/xml/backup_rules.xml"
     }
 ]

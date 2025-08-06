@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.watchsleepmonitor.app-mergeDebugResources-49:/values-large-v4/values-large-v4.xml",
+            "outputFile": "com.example.watchsleepmonitor.app-mergeDebugResources-53:/values-large-v4/values-large-v4.xml",
             "map": [
                 {
                     "source": "C:\\Users\\range\\.gradle\\caches\\transforms-3\\d74ac91f18867b9ffd848003b178a88f\\transformed\\material-1.11.0\\res\\values-large-v4\\values-large-v4.xml",

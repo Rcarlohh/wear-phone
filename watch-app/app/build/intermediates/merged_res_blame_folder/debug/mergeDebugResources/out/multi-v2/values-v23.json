@@ -1,0 +1,77 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.watchsleepmonitor.app-mergeDebugResources-53:/values-v23/values-v23.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\range\\.gradle\\caches\\transforms-4\\f557c25b7aad5a59e1d8817050bd8a98\\transformed\\appcompat-1.6.1\\res\\values-v23\\values-v23.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,20,34,35,36,39,43,44,45,46",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,190,325,400,487,1225,1975,2094,2221,2443,2667,2782,2889,3002",
+                        "endLines": "2,3,4,5,19,33,34,35,38,42,43,44,45,49",
+                        "endColumns": "134,134,74,86,12,12,118,126,12,12,114,106,112,12",
+                        "endOffsets": "185,320,395,482,1220,1970,2089,2216,2438,2662,2777,2884,2997,3227"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\range\\.gradle\\caches\\transforms-4\\874a49c1a902ea0eb9d55f64ab1e9842\\transformed\\material-1.11.0\\res\\values-v23\\values-v23.xml",
+                    "from": {
+                        "startLines": "2,5,9,13,16,19,22,25,28,32",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,271,413,574,784,991,1198,1401,1603,1868",
+                        "endLines": "4,8,12,15,18,21,24,27,31,35",
+                        "endColumns": "10,10,10,10,10,10,10,10,10,10",
+                        "endOffsets": "266,408,569,779,986,1193,1396,1598,1863,2136"
+                    },
+                    "to": {
+                        "startLines": "61,64,68,72,88,91,94,97,100,104",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "3716,3932,4074,4235,5099,5306,5513,5716,5918,6183",
+                        "endLines": "63,67,71,74,90,93,96,99,103,107",
+                        "endColumns": "10,10,10,10,10,10,10,10,10,10",
+                        "endOffsets": "3927,4069,4230,4440,5301,5508,5711,5913,6178,6451"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\range\\.gradle\\caches\\transforms-4\\388628f4f5f3ef85a8a0ce7f0e26ce67\\transformed\\wearable-2.9.0\\res\\values-v23\\values.xml",
+                    "from": {
+                        "startLines": "4,8,12,20,23",
+                        "startColumns": "0,0,0,0,0",
+                        "startOffsets": "211,373,537,938,1079",
+                        "endLines": "7,11,19,22,24",
+                        "endColumns": "8,8,8,8,8",
+                        "endOffsets": "372,536,937,1078,1178"
+                    },
+                    "to": {
+                        "startLines": "50,54,75,83,86",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "3232,3398,4445,4850,4995",
+                        "endLines": "53,57,82,85,87",
+                        "endColumns": "8,8,8,8,8",
+                        "endOffsets": "3393,3561,4845,4990,5094"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\range\\.gradle\\caches\\transforms-4\\53a99a5ddfb1571001bac98f83583ba9\\transformed\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "200"
+                    },
+                    "to": {
+                        "startLines": "58",
+                        "startColumns": "4",
+                        "startOffsets": "3566",
+                        "endLines": "60",
+                        "endColumns": "12",
+                        "endOffsets": "3711"
+                    }
+                }
+            ]
+        }
+    ]
+}

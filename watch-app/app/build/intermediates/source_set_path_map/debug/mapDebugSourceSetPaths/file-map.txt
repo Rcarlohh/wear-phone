@@ -1,0 +1,58 @@
+com.example.watchsleepmonitor.app-recyclerview-1.1.0-0 C:\Users\range\.gradle\caches\transforms-4\082095a87f2da6b3d5e66822ab391040\transformed\recyclerview-1.1.0\res
+com.example.watchsleepmonitor.app-play-services-base-18.0.1-1 C:\Users\range\.gradle\caches\transforms-4\0b565afe6b1657b23bdefa2dbbedecfc\transformed\play-services-base-18.0.1\res
+com.example.watchsleepmonitor.app-health-services-client-1.1.0-alpha03-2 C:\Users\range\.gradle\caches\transforms-4\13973249c6afa9ad42a7e76eb81b4f19\transformed\health-services-client-1.1.0-alpha03\res
+com.example.watchsleepmonitor.app-runtime-1.0.1-3 C:\Users\range\.gradle\caches\transforms-4\178fa6d5ca401b5b57b5c27e21d39781\transformed\runtime-1.0.1\res
+com.example.watchsleepmonitor.app-fragment-ktx-1.6.2-4 C:\Users\range\.gradle\caches\transforms-4\23b6c6500b38fc57e8b07e8f691f8ce7\transformed\fragment-ktx-1.6.2\res
+com.example.watchsleepmonitor.app-wear-1.3.0-5 C:\Users\range\.gradle\caches\transforms-4\382dfd0f4611e04592c00b8e58150a75\transformed\wear-1.3.0\res
+com.example.watchsleepmonitor.app-wearable-2.9.0-6 C:\Users\range\.gradle\caches\transforms-4\388628f4f5f3ef85a8a0ce7f0e26ce67\transformed\wearable-2.9.0\res
+com.example.watchsleepmonitor.app-constraintlayout-2.1.4-7 C:\Users\range\.gradle\caches\transforms-4\3b797c31885cc1270e867102bb03d887\transformed\constraintlayout-2.1.4\res
+com.example.watchsleepmonitor.app-core-ktx-1.12.0-8 C:\Users\range\.gradle\caches\transforms-4\4b03e5ff66bc0586bc59c8c69e93a40d\transformed\core-ktx-1.12.0\res
+com.example.watchsleepmonitor.app-cardview-1.0.0-9 C:\Users\range\.gradle\caches\transforms-4\53a99a5ddfb1571001bac98f83583ba9\transformed\cardview-1.0.0\res
+com.example.watchsleepmonitor.app-lifecycle-process-2.7.0-10 C:\Users\range\.gradle\caches\transforms-4\5a9213f8ec10b8f0221db7550cdbe1df\transformed\lifecycle-process-2.7.0\res
+com.example.watchsleepmonitor.app-drawerlayout-1.1.1-11 C:\Users\range\.gradle\caches\transforms-4\6615f42bfbc3e9986d1e64a0869a9531\transformed\drawerlayout-1.1.1\res
+com.example.watchsleepmonitor.app-savedstate-1.2.1-12 C:\Users\range\.gradle\caches\transforms-4\671d54f2fa2dff3ef02ea953ac45ea8f\transformed\savedstate-1.2.1\res
+com.example.watchsleepmonitor.app-percentlayout-1.0.0-13 C:\Users\range\.gradle\caches\transforms-4\6ac7a33995901928ff54ee5dab4bcd01\transformed\percentlayout-1.0.0\res
+com.example.watchsleepmonitor.app-ui-graphics-1.0.1-14 C:\Users\range\.gradle\caches\transforms-4\6e2986aa0c8315a436c42da028e1767f\transformed\ui-graphics-1.0.1\res
+com.example.watchsleepmonitor.app-startup-runtime-1.1.1-15 C:\Users\range\.gradle\caches\transforms-4\6fd7a38ee24f23072db6928f847d062a\transformed\startup-runtime-1.1.1\res
+com.example.watchsleepmonitor.app-appcompat-resources-1.6.1-16 C:\Users\range\.gradle\caches\transforms-4\70184d54a6fb9d5af0c8f2d4234c6cf9\transformed\appcompat-resources-1.6.1\res
+com.example.watchsleepmonitor.app-lifecycle-runtime-2.7.0-17 C:\Users\range\.gradle\caches\transforms-4\72b99c9eab235beb74751d8b9e9ed3da\transformed\lifecycle-runtime-2.7.0\res
+com.example.watchsleepmonitor.app-lifecycle-viewmodel-ktx-2.7.0-18 C:\Users\range\.gradle\caches\transforms-4\7415ec51616e18e6ae33d04c7dd61683\transformed\lifecycle-viewmodel-ktx-2.7.0\res
+com.example.watchsleepmonitor.app-ui-unit-1.0.1-19 C:\Users\range\.gradle\caches\transforms-4\75e85eb41a4d6f75a70b202ff7fc71b6\transformed\ui-unit-1.0.1\res
+com.example.watchsleepmonitor.app-lifecycle-runtime-ktx-2.7.0-20 C:\Users\range\.gradle\caches\transforms-4\78fa8a126930399cdcac6a0ce08af0c5\transformed\lifecycle-runtime-ktx-2.7.0\res
+com.example.watchsleepmonitor.app-emoji2-views-helper-1.2.0-21 C:\Users\range\.gradle\caches\transforms-4\7a1f16967293aa2be9f52b12847cac0e\transformed\emoji2-views-helper-1.2.0\res
+com.example.watchsleepmonitor.app-lifecycle-viewmodel-2.7.0-22 C:\Users\range\.gradle\caches\transforms-4\7d40b5a928f618c2f513c14154110817\transformed\lifecycle-viewmodel-2.7.0\res
+com.example.watchsleepmonitor.app-material-1.11.0-23 C:\Users\range\.gradle\caches\transforms-4\874a49c1a902ea0eb9d55f64ab1e9842\transformed\material-1.11.0\res
+com.example.watchsleepmonitor.app-activity-1.8.2-24 C:\Users\range\.gradle\caches\transforms-4\8f3607b0a03c6315414d67677e1ed749\transformed\activity-1.8.2\res
+com.example.watchsleepmonitor.app-activity-compose-1.8.2-25 C:\Users\range\.gradle\caches\transforms-4\9a939d2475a3c6b7b9589d1a80de2ff0\transformed\activity-compose-1.8.2\res
+com.example.watchsleepmonitor.app-ui-geometry-1.0.1-26 C:\Users\range\.gradle\caches\transforms-4\9e6c1877b86a732914ffc2e691e8ef8f\transformed\ui-geometry-1.0.1\res
+com.example.watchsleepmonitor.app-ui-1.0.1-27 C:\Users\range\.gradle\caches\transforms-4\9ea09bff47376cd72e397725558cc4a3\transformed\ui-1.0.1\res
+com.example.watchsleepmonitor.app-runtime-saveable-1.0.1-28 C:\Users\range\.gradle\caches\transforms-4\a5aef74c8ebf3e118342772ec4566035\transformed\runtime-saveable-1.0.1\res
+com.example.watchsleepmonitor.app-emoji2-1.2.0-29 C:\Users\range\.gradle\caches\transforms-4\a95888f703da11f2f0f436efcea9a93b\transformed\emoji2-1.2.0\res
+com.example.watchsleepmonitor.app-fragment-1.6.2-30 C:\Users\range\.gradle\caches\transforms-4\accdb03b342522a75c4093f2c9ae7e61\transformed\fragment-1.6.2\res
+com.example.watchsleepmonitor.app-annotation-experimental-1.3.0-31 C:\Users\range\.gradle\caches\transforms-4\ae8b91a3bc44cb8caa4056193396896a\transformed\annotation-experimental-1.3.0\res
+com.example.watchsleepmonitor.app-ui-util-1.0.1-32 C:\Users\range\.gradle\caches\transforms-4\afd0d9222a1e423ad91f157d82001ec8\transformed\ui-util-1.0.1\res
+com.example.watchsleepmonitor.app-lifecycle-livedata-2.7.0-33 C:\Users\range\.gradle\caches\transforms-4\b4ed966322f5012fb26156b57122b254\transformed\lifecycle-livedata-2.7.0\res
+com.example.watchsleepmonitor.app-lifecycle-viewmodel-savedstate-2.7.0-34 C:\Users\range\.gradle\caches\transforms-4\b7a70f5e6cf1e3913251a5bb5e8019a1\transformed\lifecycle-viewmodel-savedstate-2.7.0\res
+com.example.watchsleepmonitor.app-lifecycle-livedata-core-2.7.0-35 C:\Users\range\.gradle\caches\transforms-4\b86865191110acfa9b1fcf0785ba20d6\transformed\lifecycle-livedata-core-2.7.0\res
+com.example.watchsleepmonitor.app-viewpager2-1.0.0-36 C:\Users\range\.gradle\caches\transforms-4\bc6e00188059baf8f437aaa220b08284\transformed\viewpager2-1.0.0\res
+com.example.watchsleepmonitor.app-savedstate-ktx-1.2.1-37 C:\Users\range\.gradle\caches\transforms-4\bc85e5e4a1ea83bd231323e00a057e1f\transformed\savedstate-ktx-1.2.1\res
+com.example.watchsleepmonitor.app-ui-text-1.0.1-38 C:\Users\range\.gradle\caches\transforms-4\c4a2abc885e0ad545104bb719c23600e\transformed\ui-text-1.0.1\res
+com.example.watchsleepmonitor.app-coordinatorlayout-1.1.0-39 C:\Users\range\.gradle\caches\transforms-4\cdafa9523911949c55f5a2a10e4d39ed\transformed\coordinatorlayout-1.1.0\res
+com.example.watchsleepmonitor.app-preference-1.1.1-40 C:\Users\range\.gradle\caches\transforms-4\d404ab067b81464ce183a19410ce9ea9\transformed\preference-1.1.1\res
+com.example.watchsleepmonitor.app-activity-ktx-1.8.2-41 C:\Users\range\.gradle\caches\transforms-4\d53d120c5a9fa2d3201087461928196e\transformed\activity-ktx-1.8.2\res
+com.example.watchsleepmonitor.app-play-services-auth-20.7.0-42 C:\Users\range\.gradle\caches\transforms-4\da330c58423e12a25f9e3bf147e9d81a\transformed\play-services-auth-20.7.0\res
+com.example.watchsleepmonitor.app-lifecycle-livedata-ktx-2.7.0-43 C:\Users\range\.gradle\caches\transforms-4\db376b190d91faa1a15fdcea8bad17db\transformed\lifecycle-livedata-ktx-2.7.0\res
+com.example.watchsleepmonitor.app-lifecycle-livedata-core-ktx-2.7.0-44 C:\Users\range\.gradle\caches\transforms-4\ded62702a86986afb04ea8ea711f0b3b\transformed\lifecycle-livedata-core-ktx-2.7.0\res
+com.example.watchsleepmonitor.app-core-runtime-2.2.0-45 C:\Users\range\.gradle\caches\transforms-4\e0aec5a79d63f47324085b3772e5e158\transformed\core-runtime-2.2.0\res
+com.example.watchsleepmonitor.app-core-1.12.0-46 C:\Users\range\.gradle\caches\transforms-4\e2bea00d23b7ec4232efa359e6e15a04\transformed\core-1.12.0\res
+com.example.watchsleepmonitor.app-profileinstaller-1.3.0-47 C:\Users\range\.gradle\caches\transforms-4\e98b6b1d5ca7eb77f07692253de84046\transformed\profileinstaller-1.3.0\res
+com.example.watchsleepmonitor.app-appcompat-1.6.1-48 C:\Users\range\.gradle\caches\transforms-4\f557c25b7aad5a59e1d8817050bd8a98\transformed\appcompat-1.6.1\res
+com.example.watchsleepmonitor.app-play-services-basement-18.2.0-49 C:\Users\range\.gradle\caches\transforms-4\f94ebaf9913c4a447ef1391adcd81c7c\transformed\play-services-basement-18.2.0\res
+com.example.watchsleepmonitor.app-transition-1.2.0-50 C:\Users\range\.gradle\caches\transforms-4\f98b4bfb586e2fabb96734a9bbc8f792\transformed\transition-1.2.0\res
+com.example.watchsleepmonitor.app-pngs-51 C:\Users\range\Documents\Edel\movile app\watch-app\app\build\generated\res\pngs\debug
+com.example.watchsleepmonitor.app-resValues-52 C:\Users\range\Documents\Edel\movile app\watch-app\app\build\generated\res\resValues\debug
+com.example.watchsleepmonitor.app-packageDebugResources-53 C:\Users\range\Documents\Edel\movile app\watch-app\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.example.watchsleepmonitor.app-packageDebugResources-54 C:\Users\range\Documents\Edel\movile app\watch-app\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.example.watchsleepmonitor.app-debug-55 C:\Users\range\Documents\Edel\movile app\watch-app\app\build\intermediates\merged_res\debug\mergeDebugResources
+com.example.watchsleepmonitor.app-debug-56 C:\Users\range\Documents\Edel\movile app\watch-app\app\src\debug\res
+com.example.watchsleepmonitor.app-main-57 C:\Users\range\Documents\Edel\movile app\watch-app\app\src\main\res

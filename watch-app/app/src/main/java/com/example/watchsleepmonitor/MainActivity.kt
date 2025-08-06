@@ -35,7 +35,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         viewModel = ViewModelProvider(this)[WatchViewModel::class.java]
-        
+
         setupUI()
         checkPermissions()
         observeData()
@@ -84,6 +84,9 @@ class MainActivity : AppCompatActivity() {
 
     private fun startHealthMonitoring() {
         val serviceIntent = Intent(this, HealthMonitoringService::class.java)
+        // Corregir el Intent putExtra - usar String específicamente
+        serviceIntent.putExtra("action", "START_MONITORING")
+        serviceIntent.action = "START_MONITORING"
         startService(serviceIntent)
         viewModel.startMonitoring()
         Toast.makeText(this, "Monitoreo iniciado", Toast.LENGTH_SHORT).show()
@@ -91,6 +94,9 @@ class MainActivity : AppCompatActivity() {
 
     private fun stopHealthMonitoring() {
         val serviceIntent = Intent(this, HealthMonitoringService::class.java)
+        // Corregir el Intent putExtra - usar String específicamente
+        serviceIntent.putExtra("action", "STOP_MONITORING")
+        serviceIntent.action = "STOP_MONITORING"
         stopService(serviceIntent)
         viewModel.stopMonitoring()
         Toast.makeText(this, "Monitoreo detenido", Toast.LENGTH_SHORT).show()
@@ -120,4 +126,4 @@ class MainActivity : AppCompatActivity() {
         super.onDestroy()
         viewModel.stopMonitoring()
     }
-} 
+}

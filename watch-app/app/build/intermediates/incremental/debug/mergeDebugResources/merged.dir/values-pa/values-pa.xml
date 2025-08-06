@@ -1,9 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2" xmlns:ns2="http://schemas.android.com/tools">
+<resources xmlns:ns1="http://schemas.android.com/tools" xmlns:ns2="urn:oasis:names:tc:xliff:document:1.2">
     <plurals name="mtrl_badge_content_description">
     <item quantity="one">%d ਨਵੀਂ ਸੂਚਨਾ</item>
     <item quantity="other">%d ਨਵੀਆਂ ਸੂਚਨਾਵਾਂ</item>
   </plurals>
+    <plurals name="time_difference_short_days" ns1:ignore="UnusedQuantity,MissingQuantity"><item quantity="one">%d ਦਿਨ</item>
+<item quantity="other">%d ਦਿਨ</item>
+</plurals>
+    <plurals name="time_difference_short_hours" ns1:ignore="UnusedQuantity,MissingQuantity"><item quantity="one">%d ਘੰਟਾ</item>
+<item quantity="other">%d ਘੰਟੇ</item>
+</plurals>
+    <plurals name="time_difference_short_minutes" ns1:ignore="UnusedQuantity,MissingQuantity"><item quantity="one">%d ਮਿੰਟ</item>
+<item quantity="other">%d ਮਿੰਟ</item>
+</plurals>
+    <plurals name="time_difference_words_days" ns1:ignore="UnusedQuantity,MissingQuantity"><item quantity="one">%d ਦਿਨ</item>
+<item quantity="other">%d ਦਿਨ</item>
+</plurals>
+    <plurals name="time_difference_words_hours" ns1:ignore="UnusedQuantity,MissingQuantity"><item quantity="one">%d ਘੰਟਾ</item>
+<item quantity="other">%d ਘੰਟੇ</item>
+</plurals>
+    <plurals name="time_difference_words_minutes" ns1:ignore="UnusedQuantity,MissingQuantity"><item quantity="one">%d ਮਿੰਟ</item>
+<item quantity="other">%d ਮਿੰਟ</item>
+</plurals>
+    <string name="a11y_no_data">ਕੋਈ ਡਾਟਾ ਨਹੀਂ</string>
+    <string name="a11y_no_permission">ਡਾਟੇ ਤੱਕ ਪਹੁੰਚ ਕਰਨ ਲਈ ਇਜਾਜ਼ਤ ਨਹੀਂ</string>
+    <string name="a11y_template_range">%2$f ਵਿੱਚੋਂ %1$f</string>
     <string msgid="5976598919945601918" name="abc_action_bar_home_description">"ਹੋਮ \'ਤੇ ਜਾਓ"</string>
     <string msgid="8388173803310557296" name="abc_action_bar_up_description">"ਉੱਪਰ ਜਾਓ"</string>
     <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"ਹੋਰ ਵਿਕਲਪ"</string>
@@ -29,13 +50,41 @@
     <string msgid="1486535517437947103" name="abc_searchview_description_submit">"ਪੁੱਛਗਿੱਛ ਸਪੁਰਦ ਕਰੋ"</string>
     <string msgid="2293578557972875415" name="abc_searchview_description_voice">"ਅਵਾਜ਼ੀ ਖੋਜ"</string>
     <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"ਇਸ ਨਾਲ ਸਾਂਝਾ ਕਰੋ"</string>
-    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"<ns1:g id="APPLICATION_NAME">%s</ns1:g> ਨਾਲ ਸਾਂਝਾ ਕਰੋ"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"<ns2:g id="APPLICATION_NAME">%s</ns2:g> ਨਾਲ ਸਾਂਝਾ ਕਰੋ"</string>
     <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"ਸਮੇਟੋ"</string>
     <string name="bottomsheet_action_collapse">ਹੇਠਲੀ ਸ਼ੀਟ ਨੂੰ ਸਮੇਟੋ</string>
     <string name="bottomsheet_action_expand">ਹੇਠਲੀ ਸ਼ੀਟ ਦਾ ਵਿਸਤਾਰ ਕਰੋ</string>
     <string name="bottomsheet_action_expand_halfway">ਅੱਧ ਤੱਕ ਵਿਸਤਾਰ ਕਰੋ</string>
     <string name="bottomsheet_drag_handle_clicked">ਘਸੀਟਣ ਵਾਲੇ ਹੈਂਡਲ \'ਤੇ ਡਬਲ-ਟੈਪ ਕੀਤਾ ਗਿਆ</string>
     <string name="bottomsheet_drag_handle_content_description">ਘਸੀਟਣ ਵਾਲਾ ਹੈਂਡਲ</string>
+    <string name="buttons_rect_bottom_center">ਹੇਠਾਂ</string>
+    <string name="buttons_rect_bottom_left">ਹੇਠਾਂ ਖੱਬੇ ਪਾਸੇ</string>
+    <string name="buttons_rect_bottom_right">ਹੇਠਾਂ ਸੱਜੇ ਪਾਸੇ</string>
+    <string name="buttons_rect_left_bottom">ਹੇਠਾਂ, ਖੱਬੇ ਪਾਸੇ</string>
+    <string name="buttons_rect_left_center">ਵਿਚਕਾਰ ਖੱਬੇ ਪਾਸੇ</string>
+    <string name="buttons_rect_left_top">ਸਿਖਰ \'ਤੇ, ਖੱਬੇ ਪਾਸੇ</string>
+    <string name="buttons_rect_right_bottom">ਹੇਠਾਂ, ਸੱਜੇ ਪਾਸੇ</string>
+    <string name="buttons_rect_right_center">ਵਿਚਕਾਰ ਸੱਜੇ ਪਾਸੇ</string>
+    <string name="buttons_rect_right_top">ਸਿਖਰ \'ਤੇ, ਸੱਜੇ ਪਾਸੇ</string>
+    <string name="buttons_rect_top_center">ਸਿਖਰ \'ਤੇ</string>
+    <string name="buttons_rect_top_left">ਸਿਖਰ \'ਤੇ ਖੱਬੇ ਪਾਸੇ</string>
+    <string name="buttons_rect_top_right">ਸਿਖਰ \'ਤੇ ਸੱਜੇ ਪਾਸੇ</string>
+    <string name="buttons_round_bottom_center">ਹੇਠਾਂ</string>
+    <string name="buttons_round_bottom_left">ਹੇਠਾਂ ਖੱਬੇ ਪਾਸੇ</string>
+    <string name="buttons_round_bottom_left_lower">ਹੇਠਾਂ ਖੱਬੇ ਪਾਸੇ, ਥੱਲੇ</string>
+    <string name="buttons_round_bottom_left_upper">ਹੇਠਾਂ ਖੱਬੇ ਪਾਸੇ, ਉੱਤੇ</string>
+    <string name="buttons_round_bottom_right">ਹੇਠਾਂ ਸੱਜੇ ਪਾਸੇ</string>
+    <string name="buttons_round_bottom_right_lower">ਹੇਠਾਂ ਸੱਜੇ ਪਾਸੇ, ਥੱਲੇ</string>
+    <string name="buttons_round_bottom_right_upper">ਹੇਠਾਂ ਸੱਜੇ ਪਾਸੇ, ਉੱਤੇ</string>
+    <string name="buttons_round_center_left">ਵਿਚਕਾਰ ਖੱਬੇ ਪਾਸੇ</string>
+    <string name="buttons_round_center_right">ਵਿਚਕਾਰ ਸੱਜੇ ਪਾਸੇ</string>
+    <string name="buttons_round_top_center">ਸਿਖਰ \'ਤੇ</string>
+    <string name="buttons_round_top_left">ਸਿਖਰ \'ਤੇ ਖੱਬੇ ਪਾਸੇ</string>
+    <string name="buttons_round_top_left_lower">ਸਿਖਰ \'ਤੇ ਖੱਬੇ ਪਾਸੇ, ਥੱਲੇ</string>
+    <string name="buttons_round_top_left_upper">ਸਿਖਰ \'ਤੇ ਖੱਬੇ ਪਾਸੇ, ਉੱਤੇ</string>
+    <string name="buttons_round_top_right">ਸਿਖਰ \'ਤੇ ਸੱਜੇ ਪਾਸੇ</string>
+    <string name="buttons_round_top_right_lower">ਸਿਖਰ \'ਤੇ ਸੱਜੇ ਪਾਸੇ, ਥੱਲੇ</string>
+    <string name="buttons_round_top_right_upper">ਸਿਖਰ \'ਤੇ ਸੱਜੇ ਪਾਸੇ, ਉੱਤੇ</string>
     <string msgid="881409763997275156" name="call_notification_answer_action">"ਜਵਾਬ ਦਿਓ"</string>
     <string msgid="8793775615905189152" name="call_notification_answer_video_action">"ਵੀਡੀਓ"</string>
     <string msgid="3229508546291798546" name="call_notification_decline_action">"ਅਸਵੀਕਾਰ ਕਰੋ"</string>
@@ -69,9 +118,14 @@
     <string msgid="6412144553299494336" name="confirmation_overlay_a11y_description_fail">"ਅਸਫਲਤਾ"</string>
     <string msgid="8809042819843332546" name="confirmation_overlay_a11y_description_phone">"ਤੁਹਾਡੇ ਫ਼ੋਨ \'ਤੇ ਖੋਲ੍ਹਿਆ ਗਿਆ"</string>
     <string msgid="2936753235333429892" name="confirmation_overlay_a11y_description_success">"ਸਫਲਤਾ"</string>
+    <string msgid="3209159573327985035" name="copy">"ਕਾਪੀ ਕਰੋ"</string>
     <string msgid="8038256446254964252" name="default_error_message">"ਅਵੈਧ ਇਨਪੁੱਟ"</string>
+    <string name="dismiss_overlay_button_label">ਛੱਡੋ</string>
     <string name="error_icon_content_description">ਗੜਬੜ</string>
+    <string msgid="1234962710353108940" name="expand_button_title">"ਉੱਨਤ"</string>
     <string name="exposed_dropdown_menu_content_description">ਡ੍ਰੌਪ-ਡਾਊਨ ਮੀਨੂ ਦਿਖਾਓ</string>
+    <string name="generic_cancel">ਰੱਦ ਕਰੋ</string>
+    <string name="generic_yes">ਹਾਂ</string>
     <string name="icon_content_description">ਵਿੰਡੋ ਦਾ ਪ੍ਰਤੀਕ</string>
     <string msgid="6827826412747255547" name="in_progress">"ਜਾਰੀ ਹੈ"</string>
     <string msgid="2486394087603402002" name="indeterminate">"ਨਾ ਨਿਸ਼ਾਨ ਲਗਾਇਆ ਗਿਆ ਨਾ ਹੀ ਨਿਸ਼ਾਨ ਹਟਾਇਆ ਗਿਆ"</string>
@@ -91,7 +145,7 @@
     <string name="material_timepicker_text_input_mode_description">ਸਮਾਂ ਇਨਪੁੱਟ ਕਰਨ ਲਈ ਲਿਖਤ ਇਨਪੁੱਟ ਮੋਡ \'ਤੇ ਸਵਿੱਚ ਕਰੋ।</string>
     <string name="mtrl_badge_numberless_content_description">ਨਵੀਂ ਸੂਚਨਾ</string>
     <string name="mtrl_chip_close_icon_content_description">%1$s ਹਟਾਓ</string>
-    <string name="mtrl_exceed_max_badge_number_content_description" ns2:ignore="PluralsCandidate">%1$d ਤੋਂ ਵੱਧ ਨਵੀਆਂ ਸੂਚਨਾਵਾਂ</string>
+    <string name="mtrl_exceed_max_badge_number_content_description" ns1:ignore="PluralsCandidate">%1$d ਤੋਂ ਵੱਧ ਨਵੀਆਂ ਸੂਚਨਾਵਾਂ</string>
     <string name="mtrl_picker_a11y_next_month">ਅਗਲੇ ਮਹੀਨੇ \'ਤੇ ਜਾਓ</string>
     <string name="mtrl_picker_a11y_prev_month">ਪਿਛਲੇ ਮਹੀਨੇ \'ਤੇ ਜਾਓ</string>
     <string name="mtrl_picker_announce_current_range_selection">ਸ਼ੁਰੂਆਤੀ ਤਾਰੀਖ ਦੀ ਚੋਣ: %1$s – ਸਮਾਪਤੀ ਤਾਰੀਖ ਦੀ ਚੋਣ: %2$s</string>
@@ -131,16 +185,25 @@
     <string name="mtrl_picker_toggle_to_year_selection">ਸਾਲ ਦ੍ਰਿਸ਼ \'ਤੇ ਸਵਿੱਚ ਕਰਨ ਲਈ ਟੈਪ ਕਰੋ</string>
     <string name="mtrl_timepicker_cancel">ਰੱਦ ਕਰੋ</string>
     <string name="mtrl_timepicker_confirm">ਠੀਕ ਹੈ</string>
+    <string name="navigation_drawer_content_description">ਨੈਵੀਗੇਸ਼ਨ ਡ੍ਰਾਅਰ</string>
     <string msgid="542007171693138492" name="navigation_menu">"ਨੈਵੀਗੇਸ਼ਨ ਮੀਨੂ"</string>
     <string msgid="6610465462668679431" name="not_selected">"ਚੁਣੀ ਨਹੀਂ ਗਈ"</string>
+    <string msgid="478774118347071097" name="not_set">"ਸੈੱਟ ਨਹੀਂ"</string>
     <string msgid="875452955155264703" name="off">"ਬੰਦ ਹੈ"</string>
     <string msgid="8655164131929253426" name="on">"ਚਾਲੂ ਹੈ"</string>
     <string name="password_toggle_content_description">ਪਾਸਵਰਡ ਦਿਖਾਓ</string>
+    <string msgid="7961817945132860002" name="preference_copied">"\"<ns2:g id="SUMMARY">%1$s</ns2:g>\" ਨੂੰ ਕਲਿੱਪਬੋਰਡ \'ਤੇ ਕਾਪੀ ਕੀਤਾ ਗਿਆ।"</string>
     <string msgid="6264217191555673260" name="search_menu_title">"ਖੋਜ"</string>
     <string msgid="6043586758067023" name="selected">"ਚੁਣੀ ਗਈ"</string>
     <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="5190123168583152844" name="summary_collapsed_preference_list">"<ns2:g id="CURRENT_ITEMS">%1$s</ns2:g>, <ns2:g id="ADDED_ITEMS">%2$s</ns2:g>"</string>
     <string msgid="1672349317127674378" name="tab">"ਟੈਬ"</string>
-    <string msgid="5946805113151406391" name="template_percent">"<ns1:g id="PERCENTAGE">%1$d</ns1:g> ਫ਼ੀਸਦ।"</string>
+    <string msgid="5946805113151406391" name="template_percent">"<ns2:g id="PERCENTAGE">%1$d</ns2:g> ਫ਼ੀਸਦ।"</string>
+    <string name="time_difference_now">ਹੁਣ</string>
+    <string name="time_difference_short_days_and_hours" ns1:ignore="ByteOrderMark">%1$s\u0020%2$s</string>
+    <string name="time_difference_short_hours_and_minutes" ns1:ignore="ByteOrderMark">%1$s\u0020%2$s</string>
+    <string msgid="5138405918326871307" name="v7_preference_off">"ਬੰਦ"</string>
+    <string msgid="27351710992731591" name="v7_preference_on">"ਚਾਲੂ"</string>
     <string msgid="8863821639144537553" name="ws_action_drawer_content_description">"ਕਾਰਵਾਈ ਡ੍ਰਾਅਰ"</string>
     <string msgid="777117228299084604" name="ws_navigation_drawer_content_description">"ਦਿਸ਼ਾ-ਨਿਰਦੇਸ਼ ਡ੍ਰਾਅਰ"</string>
 </resources>

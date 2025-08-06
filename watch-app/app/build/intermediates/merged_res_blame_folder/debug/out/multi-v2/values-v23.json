@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.watchsleepmonitor.app-mergeDebugResources-49:/values-v23/values-v23.xml",
+            "outputFile": "com.example.watchsleepmonitor.app-mergeDebugResources-53:/values-v23/values-v23.xml",
             "map": [
                 {
                     "source": "C:\\Users\\range\\.gradle\\caches\\transforms-3\\4c2c3f6b3d30452848c2ee69795086a3\\transformed\\appcompat-1.6.1\\res\\values-v23\\values-v23.xml",
@@ -15,6 +15,25 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\range\\.gradle\\caches\\transforms-3\\44601b3901f72229a19b07e555c31eb1\\transformed\\wearable-2.9.0\\res\\values-v23\\values.xml",
+                    "from": {
+                        "startLines": "4,8,12,20,23",
+                        "startColumns": "0,0,0,0,0",
+                        "startOffsets": "211,373,537,938,1079",
+                        "endLines": "7,11,19,22,24",
+                        "endColumns": "8,8,8,8,8",
+                        "endOffsets": "372,536,937,1078,1178"
+                    },
+                    "to": {
+                        "startLines": "50,54,75,83,86",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "3232,3398,4445,4850,4995",
+                        "endLines": "53,57,82,85,87",
+                        "endColumns": "8,8,8,8,8",
+                        "endOffsets": "3393,3561,4845,4990,5094"
+                    }
+                },
+                {
                     "source": "C:\\Users\\range\\.gradle\\caches\\transforms-3\\9c1d9e2c7807eca81f4245a2b32761f8\\transformed\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2",
@@ -25,12 +44,12 @@
                         "endOffsets": "200"
                     },
                     "to": {
-                        "startLines": "50",
+                        "startLines": "58",
                         "startColumns": "4",
-                        "startOffsets": "3232",
-                        "endLines": "52",
+                        "startOffsets": "3566",
+                        "endLines": "60",
                         "endColumns": "12",
-                        "endOffsets": "3377"
+                        "endOffsets": "3711"
                     }
                 },
                 {
@@ -44,12 +63,12 @@
                         "endOffsets": "266,408,569,779,986,1193,1396,1598,1863,2136"
                     },
                     "to": {
-                        "startLines": "53,56,60,64,67,70,73,76,79,83",
+                        "startLines": "61,64,68,72,88,91,94,97,100,104",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "3382,3598,3740,3901,4111,4318,4525,4728,4930,5195",
-                        "endLines": "55,59,63,66,69,72,75,78,82,86",
+                        "startOffsets": "3716,3932,4074,4235,5099,5306,5513,5716,5918,6183",
+                        "endLines": "63,67,71,74,90,93,96,99,103,107",
                         "endColumns": "10,10,10,10,10,10,10,10,10,10",
-                        "endOffsets": "3593,3735,3896,4106,4313,4520,4723,4925,5190,5463"
+                        "endOffsets": "3927,4069,4230,4440,5301,5508,5711,5913,6178,6451"
                     }
                 }
             ]

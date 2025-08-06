@@ -6,6 +6,8 @@ import androidx.health.services.client.PassiveListenerService
 import androidx.health.services.client.data.DataPointContainer
 import androidx.health.services.client.data.DataType
 import androidx.health.services.client.data.SampleDataPoint
+import androidx.health.services.client.data.UserActivityInfo
+import com.example.watchsleepmonitor.utils.HealthDataUtils
 
 class HealthDataListenerService : PassiveListenerService() {
 
@@ -20,22 +22,27 @@ class HealthDataListenerService : PassiveListenerService() {
         val stepPoints = dataPoints.getData(DataType.STEPS_DAILY)
         stepPoints.forEach { dataPoint ->
             if (dataPoint is SampleDataPoint<*>) {
-                val steps = (dataPoint.value as? Long)?.toInt() ?: 0
-                val timestamp = System.currentTimeMillis()
+                val steps = HealthDataUtils.extractIntValue(dataPoint)
 
-                Log.d(TAG, "Steps: $steps at $timestamp")
+                if (HealthDataUtils.isValidStepCount(steps)) {
+                    val timestamp = System.currentTimeMillis()
 
-                // Enviar datos al ViewModel
-                val intent = Intent("HEALTH_DATA_UPDATE")
-                intent.putExtra("stepCount", steps)
-                intent.putExtra("timestamp", timestamp)
-                sendBroadcast(intent)
+                    Log.d(TAG, "Steps: $steps at $timestamp")
 
-                // Enviar vía Bluetooth
-                try {
-                    BluetoothService.sendDataToPhone("STEPS:$steps")
-                } catch (e: Exception) {
-                    Log.w(TAG, "Could not send step data via Bluetooth", e)
+                    // Enviar datos al ViewModel
+                    val intent = Intent("HEALTH_DATA_UPDATE")
+                    intent.putExtra("stepCount", steps)
+                    intent.putExtra("timestamp", timestamp)
+                    sendBroadcast(intent)
+
+                    // Enviar vía Bluetooth
+                    try {
+                        BluetoothService.sendDataToPhone("STEPS:$steps")
+                    } catch (e: Exception) {
+                        Log.w(TAG, "Could not send step data via Bluetooth", e)
+                    }
+                } else {
+                    Log.w(TAG, "Invalid step count received: $steps")
                 }
             }
         }
@@ -44,28 +51,33 @@ class HealthDataListenerService : PassiveListenerService() {
         val heartRatePoints = dataPoints.getData(DataType.HEART_RATE_BPM)
         heartRatePoints.forEach { dataPoint ->
             if (dataPoint is SampleDataPoint<*>) {
-                val heartRate = (dataPoint.value as? Double)?.toInt() ?: 0
-                val timestamp = System.currentTimeMillis()
+                val heartRate = HealthDataUtils.extractIntValue(dataPoint)
 
-                Log.d(TAG, "Heart Rate: $heartRate BPM at $timestamp")
+                if (HealthDataUtils.isValidHeartRate(heartRate)) {
+                    val timestamp = System.currentTimeMillis()
 
-                // Enviar datos al ViewModel
-                val intent = Intent("HEALTH_DATA_UPDATE")
-                intent.putExtra("heartRate", heartRate)
-                intent.putExtra("timestamp", timestamp)
-                sendBroadcast(intent)
+                    Log.d(TAG, "Heart Rate: $heartRate BPM at $timestamp")
 
-                // Enviar vía Bluetooth
-                try {
-                    BluetoothService.sendDataToPhone("HR:$heartRate")
-                } catch (e: Exception) {
-                    Log.w(TAG, "Could not send heart rate data via Bluetooth", e)
+                    // Enviar datos al ViewModel
+                    val intent = Intent("HEALTH_DATA_UPDATE")
+                    intent.putExtra("heartRate", heartRate)
+                    intent.putExtra("timestamp", timestamp)
+                    sendBroadcast(intent)
+
+                    // Enviar vía Bluetooth
+                    try {
+                        BluetoothService.sendDataToPhone("HR:$heartRate")
+                    } catch (e: Exception) {
+                        Log.w(TAG, "Could not send heart rate data via Bluetooth", e)
+                    }
+                } else {
+                    Log.w(TAG, "Invalid heart rate received: $heartRate")
                 }
             }
         }
     }
 
-    override fun onUserActivityInfoReceived(info: androidx.health.services.client.data.UserActivityInfo) {
+    override fun onUserActivityInfoReceived(info: UserActivityInfo) {
         Log.d(TAG, "User activity info: ${info.userActivityState}")
 
         // Enviar información de actividad
