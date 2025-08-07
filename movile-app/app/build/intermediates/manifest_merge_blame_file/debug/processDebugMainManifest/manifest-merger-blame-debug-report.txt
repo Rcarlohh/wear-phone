@@ -8,189 +8,249 @@
 8        android:minSdkVersion="33"
 9        android:targetSdkVersion="34" />
 10
-11    <!-- Bluetooth permissions for API 31+ -->
-12    <uses-permission android:name="android.permission.BLUETOOTH" />
-12-->C:\Users\range\Documents\Edel\movile app\movile-app\app\src\main\AndroidManifest.xml:6:5-68
-12-->C:\Users\range\Documents\Edel\movile app\movile-app\app\src\main\AndroidManifest.xml:6:22-65
-13    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
-13-->C:\Users\range\Documents\Edel\movile app\movile-app\app\src\main\AndroidManifest.xml:7:5-74
-13-->C:\Users\range\Documents\Edel\movile app\movile-app\app\src\main\AndroidManifest.xml:7:22-71
-14    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
-14-->C:\Users\range\Documents\Edel\movile app\movile-app\app\src\main\AndroidManifest.xml:8:5-76
-14-->C:\Users\range\Documents\Edel\movile app\movile-app\app\src\main\AndroidManifest.xml:8:22-73
-15    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
-15-->C:\Users\range\Documents\Edel\movile app\movile-app\app\src\main\AndroidManifest.xml:9:5-73
-15-->C:\Users\range\Documents\Edel\movile app\movile-app\app\src\main\AndroidManifest.xml:9:22-70
-16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-16-->C:\Users\range\Documents\Edel\movile app\movile-app\app\src\main\AndroidManifest.xml:10:5-79
-16-->C:\Users\range\Documents\Edel\movile app\movile-app\app\src\main\AndroidManifest.xml:10:22-76
-17    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-17-->C:\Users\range\Documents\Edel\movile app\movile-app\app\src\main\AndroidManifest.xml:11:5-81
-17-->C:\Users\range\Documents\Edel\movile app\movile-app\app\src\main\AndroidManifest.xml:11:22-78
+11    <!-- Permisos Bluetooth tradicionales -->
+12    <uses-permission
+12-->C:\Users\range\Documents\Edel\movile app\movile-app\app\src\main\AndroidManifest.xml:6:5-7:38
+13        android:name="android.permission.BLUETOOTH"
+13-->C:\Users\range\Documents\Edel\movile app\movile-app\app\src\main\AndroidManifest.xml:6:22-65
+14        android:maxSdkVersion="30" />
+14-->C:\Users\range\Documents\Edel\movile app\movile-app\app\src\main\AndroidManifest.xml:7:9-35
+15    <uses-permission
+15-->C:\Users\range\Documents\Edel\movile app\movile-app\app\src\main\AndroidManifest.xml:8:5-9:38
+16        android:name="android.permission.BLUETOOTH_ADMIN"
+16-->C:\Users\range\Documents\Edel\movile app\movile-app\app\src\main\AndroidManifest.xml:8:22-71
+17        android:maxSdkVersion="30" />
+17-->C:\Users\range\Documents\Edel\movile app\movile-app\app\src\main\AndroidManifest.xml:9:9-35
 18
-19    <!-- Health data permissions -->
-20    <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION" />
-20-->C:\Users\range\Documents\Edel\movile app\movile-app\app\src\main\AndroidManifest.xml:14:5-79
-20-->C:\Users\range\Documents\Edel\movile app\movile-app\app\src\main\AndroidManifest.xml:14:22-76
-21
-22    <!-- Internet permission for data sync -->
-23    <uses-permission android:name="android.permission.INTERNET" />
-23-->C:\Users\range\Documents\Edel\movile app\movile-app\app\src\main\AndroidManifest.xml:17:5-67
-23-->C:\Users\range\Documents\Edel\movile app\movile-app\app\src\main\AndroidManifest.xml:17:22-64
-24
-25    <uses-feature
-25-->C:\Users\range\Documents\Edel\movile app\movile-app\app\src\main\AndroidManifest.xml:19:5-21:35
-26        android:name="android.hardware.bluetooth"
-26-->C:\Users\range\Documents\Edel\movile app\movile-app\app\src\main\AndroidManifest.xml:20:9-50
-27        android:required="true" />
-27-->C:\Users\range\Documents\Edel\movile app\movile-app\app\src\main\AndroidManifest.xml:21:9-32
-28
-29    <permission
-29-->[androidx.core:core:1.12.0] C:\Users\range\.gradle\caches\transforms-4\37dd57a254e2932c1142d6b0340d7e19\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
-30        android:name="com.example.sleepmonitor.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-30-->[androidx.core:core:1.12.0] C:\Users\range\.gradle\caches\transforms-4\37dd57a254e2932c1142d6b0340d7e19\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
-31        android:protectionLevel="signature" />
-31-->[androidx.core:core:1.12.0] C:\Users\range\.gradle\caches\transforms-4\37dd57a254e2932c1142d6b0340d7e19\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
-32
-33    <uses-permission android:name="com.example.sleepmonitor.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-33-->[androidx.core:core:1.12.0] C:\Users\range\.gradle\caches\transforms-4\37dd57a254e2932c1142d6b0340d7e19\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
-33-->[androidx.core:core:1.12.0] C:\Users\range\.gradle\caches\transforms-4\37dd57a254e2932c1142d6b0340d7e19\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
-34
-35    <application
-35-->C:\Users\range\Documents\Edel\movile app\movile-app\app\src\main\AndroidManifest.xml:23:5-49:19
-36        android:allowBackup="true"
-36-->C:\Users\range\Documents\Edel\movile app\movile-app\app\src\main\AndroidManifest.xml:24:9-35
-37        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-37-->[androidx.core:core:1.12.0] C:\Users\range\.gradle\caches\transforms-4\37dd57a254e2932c1142d6b0340d7e19\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
-38        android:dataExtractionRules="@xml/data_extraction_rules"
-38-->C:\Users\range\Documents\Edel\movile app\movile-app\app\src\main\AndroidManifest.xml:25:9-65
-39        android:debuggable="true"
-40        android:extractNativeLibs="false"
-41        android:fullBackupContent="@xml/backup_rules"
-41-->C:\Users\range\Documents\Edel\movile app\movile-app\app\src\main\AndroidManifest.xml:26:9-54
-42        android:label="@string/app_name"
-42-->C:\Users\range\Documents\Edel\movile app\movile-app\app\src\main\AndroidManifest.xml:28:9-41
-43        android:supportsRtl="true"
-43-->C:\Users\range\Documents\Edel\movile app\movile-app\app\src\main\AndroidManifest.xml:30:9-35
-44        android:testOnly="true"
-45        android:theme="@style/Theme.SleepMonitor" >
-45-->C:\Users\range\Documents\Edel\movile app\movile-app\app\src\main\AndroidManifest.xml:31:9-50
-46        <activity
-46-->C:\Users\range\Documents\Edel\movile app\movile-app\app\src\main\AndroidManifest.xml:34:9-42:20
-47            android:name="com.example.sleepmonitor.MainActivity"
-47-->C:\Users\range\Documents\Edel\movile app\movile-app\app\src\main\AndroidManifest.xml:35:13-41
-48            android:exported="true"
-48-->C:\Users\range\Documents\Edel\movile app\movile-app\app\src\main\AndroidManifest.xml:36:13-36
-49            android:theme="@style/Theme.SleepMonitor" >
-49-->C:\Users\range\Documents\Edel\movile app\movile-app\app\src\main\AndroidManifest.xml:37:13-54
-50            <intent-filter>
-50-->C:\Users\range\Documents\Edel\movile app\movile-app\app\src\main\AndroidManifest.xml:38:13-41:29
-51                <action android:name="android.intent.action.MAIN" />
-51-->C:\Users\range\Documents\Edel\movile app\movile-app\app\src\main\AndroidManifest.xml:39:17-69
-51-->C:\Users\range\Documents\Edel\movile app\movile-app\app\src\main\AndroidManifest.xml:39:25-66
-52
-53                <category android:name="android.intent.category.LAUNCHER" />
-53-->C:\Users\range\Documents\Edel\movile app\movile-app\app\src\main\AndroidManifest.xml:40:17-77
-53-->C:\Users\range\Documents\Edel\movile app\movile-app\app\src\main\AndroidManifest.xml:40:27-74
-54            </intent-filter>
-55        </activity>
-56
-57        <service
-57-->C:\Users\range\Documents\Edel\movile app\movile-app\app\src\main\AndroidManifest.xml:44:9-47:40
-58            android:name="com.example.sleepmonitor.service.BluetoothService"
-58-->C:\Users\range\Documents\Edel\movile app\movile-app\app\src\main\AndroidManifest.xml:45:13-53
-59            android:enabled="true"
-59-->C:\Users\range\Documents\Edel\movile app\movile-app\app\src\main\AndroidManifest.xml:46:13-35
-60            android:exported="false" />
-60-->C:\Users\range\Documents\Edel\movile app\movile-app\app\src\main\AndroidManifest.xml:47:13-37
-61
-62        <provider
-62-->[androidx.emoji2:emoji2:1.2.0] C:\Users\range\.gradle\caches\transforms-4\a418f5e42e9f80ea5dd549575bed2b0c\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-63            android:name="androidx.startup.InitializationProvider"
-63-->[androidx.emoji2:emoji2:1.2.0] C:\Users\range\.gradle\caches\transforms-4\a418f5e42e9f80ea5dd549575bed2b0c\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
-64            android:authorities="com.example.sleepmonitor.androidx-startup"
-64-->[androidx.emoji2:emoji2:1.2.0] C:\Users\range\.gradle\caches\transforms-4\a418f5e42e9f80ea5dd549575bed2b0c\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
-65            android:exported="false" >
-65-->[androidx.emoji2:emoji2:1.2.0] C:\Users\range\.gradle\caches\transforms-4\a418f5e42e9f80ea5dd549575bed2b0c\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
-66            <meta-data
-66-->[androidx.emoji2:emoji2:1.2.0] C:\Users\range\.gradle\caches\transforms-4\a418f5e42e9f80ea5dd549575bed2b0c\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-67                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-67-->[androidx.emoji2:emoji2:1.2.0] C:\Users\range\.gradle\caches\transforms-4\a418f5e42e9f80ea5dd549575bed2b0c\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
-68                android:value="androidx.startup" />
-68-->[androidx.emoji2:emoji2:1.2.0] C:\Users\range\.gradle\caches\transforms-4\a418f5e42e9f80ea5dd549575bed2b0c\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
-69            <meta-data
-69-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\range\.gradle\caches\transforms-4\887aa768c0caed0c2a53a267e44ded3e\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
-70                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-70-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\range\.gradle\caches\transforms-4\887aa768c0caed0c2a53a267e44ded3e\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
-71                android:value="androidx.startup" />
-71-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\range\.gradle\caches\transforms-4\887aa768c0caed0c2a53a267e44ded3e\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
-72            <meta-data
-72-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\range\.gradle\caches\transforms-4\8a956380ef50737347c8b23e3b3c26ed\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
-73                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-73-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\range\.gradle\caches\transforms-4\8a956380ef50737347c8b23e3b3c26ed\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
-74                android:value="androidx.startup" />
-74-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\range\.gradle\caches\transforms-4\8a956380ef50737347c8b23e3b3c26ed\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
-75        </provider>
-76
-77        <uses-library
-77-->[androidx.window:window:1.0.0] C:\Users\range\.gradle\caches\transforms-4\d487ed188ee680de4aa44b8af69377ec\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
-78            android:name="androidx.window.extensions"
-78-->[androidx.window:window:1.0.0] C:\Users\range\.gradle\caches\transforms-4\d487ed188ee680de4aa44b8af69377ec\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
-79            android:required="false" />
-79-->[androidx.window:window:1.0.0] C:\Users\range\.gradle\caches\transforms-4\d487ed188ee680de4aa44b8af69377ec\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
-80        <uses-library
-80-->[androidx.window:window:1.0.0] C:\Users\range\.gradle\caches\transforms-4\d487ed188ee680de4aa44b8af69377ec\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
-81            android:name="androidx.window.sidecar"
-81-->[androidx.window:window:1.0.0] C:\Users\range\.gradle\caches\transforms-4\d487ed188ee680de4aa44b8af69377ec\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
-82            android:required="false" />
-82-->[androidx.window:window:1.0.0] C:\Users\range\.gradle\caches\transforms-4\d487ed188ee680de4aa44b8af69377ec\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
-83
-84        <service
-84-->[androidx.room:room-runtime:2.6.1] C:\Users\range\.gradle\caches\transforms-4\8bedf313db6c6e396f36ba1abaf037d1\transformed\room-runtime-2.6.1\AndroidManifest.xml:24:9-28:63
-85            android:name="androidx.room.MultiInstanceInvalidationService"
-85-->[androidx.room:room-runtime:2.6.1] C:\Users\range\.gradle\caches\transforms-4\8bedf313db6c6e396f36ba1abaf037d1\transformed\room-runtime-2.6.1\AndroidManifest.xml:25:13-74
-86            android:directBootAware="true"
-86-->[androidx.room:room-runtime:2.6.1] C:\Users\range\.gradle\caches\transforms-4\8bedf313db6c6e396f36ba1abaf037d1\transformed\room-runtime-2.6.1\AndroidManifest.xml:26:13-43
-87            android:exported="false" />
-87-->[androidx.room:room-runtime:2.6.1] C:\Users\range\.gradle\caches\transforms-4\8bedf313db6c6e396f36ba1abaf037d1\transformed\room-runtime-2.6.1\AndroidManifest.xml:27:13-37
-88
-89        <receiver
-89-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\range\.gradle\caches\transforms-4\8a956380ef50737347c8b23e3b3c26ed\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
-90            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-90-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\range\.gradle\caches\transforms-4\8a956380ef50737347c8b23e3b3c26ed\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
-91            android:directBootAware="false"
-91-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\range\.gradle\caches\transforms-4\8a956380ef50737347c8b23e3b3c26ed\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
-92            android:enabled="true"
-92-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\range\.gradle\caches\transforms-4\8a956380ef50737347c8b23e3b3c26ed\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
-93            android:exported="true"
-93-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\range\.gradle\caches\transforms-4\8a956380ef50737347c8b23e3b3c26ed\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
-94            android:permission="android.permission.DUMP" >
-94-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\range\.gradle\caches\transforms-4\8a956380ef50737347c8b23e3b3c26ed\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
-95            <intent-filter>
-95-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\range\.gradle\caches\transforms-4\8a956380ef50737347c8b23e3b3c26ed\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
-96                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-96-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\range\.gradle\caches\transforms-4\8a956380ef50737347c8b23e3b3c26ed\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
-96-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\range\.gradle\caches\transforms-4\8a956380ef50737347c8b23e3b3c26ed\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
-97            </intent-filter>
-98            <intent-filter>
-98-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\range\.gradle\caches\transforms-4\8a956380ef50737347c8b23e3b3c26ed\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
-99                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-99-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\range\.gradle\caches\transforms-4\8a956380ef50737347c8b23e3b3c26ed\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
-99-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\range\.gradle\caches\transforms-4\8a956380ef50737347c8b23e3b3c26ed\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
-100            </intent-filter>
-101            <intent-filter>
-101-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\range\.gradle\caches\transforms-4\8a956380ef50737347c8b23e3b3c26ed\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
-102                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-102-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\range\.gradle\caches\transforms-4\8a956380ef50737347c8b23e3b3c26ed\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
-102-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\range\.gradle\caches\transforms-4\8a956380ef50737347c8b23e3b3c26ed\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
-103            </intent-filter>
-104            <intent-filter>
-104-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\range\.gradle\caches\transforms-4\8a956380ef50737347c8b23e3b3c26ed\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
-105                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-105-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\range\.gradle\caches\transforms-4\8a956380ef50737347c8b23e3b3c26ed\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
-105-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\range\.gradle\caches\transforms-4\8a956380ef50737347c8b23e3b3c26ed\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
-106            </intent-filter>
-107        </receiver>
-108    </application>
-109
-110</manifest>
+19    <!-- Permisos Bluetooth para API 31+ (Android 12+) -->
+20    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+20-->C:\Users\range\Documents\Edel\movile app\movile-app\app\src\main\AndroidManifest.xml:12:5-76
+20-->C:\Users\range\Documents\Edel\movile app\movile-app\app\src\main\AndroidManifest.xml:12:22-73
+21    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+21-->C:\Users\range\Documents\Edel\movile app\movile-app\app\src\main\AndroidManifest.xml:13:5-73
+21-->C:\Users\range\Documents\Edel\movile app\movile-app\app\src\main\AndroidManifest.xml:13:22-70
+22    <uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE" />
+22-->C:\Users\range\Documents\Edel\movile app\movile-app\app\src\main\AndroidManifest.xml:14:5-78
+22-->C:\Users\range\Documents\Edel\movile app\movile-app\app\src\main\AndroidManifest.xml:14:22-75
+23
+24    <!-- Permisos de ubicación requeridos para escaneo Bluetooth -->
+25    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+25-->C:\Users\range\Documents\Edel\movile app\movile-app\app\src\main\AndroidManifest.xml:17:5-79
+25-->C:\Users\range\Documents\Edel\movile app\movile-app\app\src\main\AndroidManifest.xml:17:22-76
+26    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+26-->C:\Users\range\Documents\Edel\movile app\movile-app\app\src\main\AndroidManifest.xml:18:5-81
+26-->C:\Users\range\Documents\Edel\movile app\movile-app\app\src\main\AndroidManifest.xml:18:22-78
+27
+28    <!-- Permiso para datos de actividad física -->
+29    <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION" />
+29-->C:\Users\range\Documents\Edel\movile app\movile-app\app\src\main\AndroidManifest.xml:21:5-79
+29-->C:\Users\range\Documents\Edel\movile app\movile-app\app\src\main\AndroidManifest.xml:21:22-76
+30
+31    <!-- Permiso de Internet para sincronización de datos -->
+32    <uses-permission android:name="android.permission.INTERNET" />
+32-->C:\Users\range\Documents\Edel\movile app\movile-app\app\src\main\AndroidManifest.xml:24:5-67
+32-->C:\Users\range\Documents\Edel\movile app\movile-app\app\src\main\AndroidManifest.xml:24:22-64
+33
+34    <!-- Permiso para mantener la CPU activa durante el monitoreo -->
+35    <uses-permission android:name="android.permission.WAKE_LOCK" />
+35-->C:\Users\range\Documents\Edel\movile app\movile-app\app\src\main\AndroidManifest.xml:27:5-68
+35-->C:\Users\range\Documents\Edel\movile app\movile-app\app\src\main\AndroidManifest.xml:27:22-65
+36
+37    <!-- Permiso para ejecutar en primer plano -->
+38    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+38-->C:\Users\range\Documents\Edel\movile app\movile-app\app\src\main\AndroidManifest.xml:30:5-77
+38-->C:\Users\range\Documents\Edel\movile app\movile-app\app\src\main\AndroidManifest.xml:30:22-74
+39
+40    <!-- Características de hardware requeridas -->
+41    <uses-feature
+41-->C:\Users\range\Documents\Edel\movile app\movile-app\app\src\main\AndroidManifest.xml:33:5-35:35
+42        android:name="android.hardware.bluetooth"
+42-->C:\Users\range\Documents\Edel\movile app\movile-app\app\src\main\AndroidManifest.xml:34:9-50
+43        android:required="true" />
+43-->C:\Users\range\Documents\Edel\movile app\movile-app\app\src\main\AndroidManifest.xml:35:9-32
+44    <uses-feature
+44-->C:\Users\range\Documents\Edel\movile app\movile-app\app\src\main\AndroidManifest.xml:36:5-38:36
+45        android:name="android.hardware.bluetooth_le"
+45-->C:\Users\range\Documents\Edel\movile app\movile-app\app\src\main\AndroidManifest.xml:37:9-53
+46        android:required="false" />
+46-->C:\Users\range\Documents\Edel\movile app\movile-app\app\src\main\AndroidManifest.xml:38:9-33
+47
+48    <permission
+48-->[androidx.core:core:1.12.0] C:\Users\range\.gradle\caches\transforms-4\37dd57a254e2932c1142d6b0340d7e19\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+49        android:name="com.example.sleepmonitor.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+49-->[androidx.core:core:1.12.0] C:\Users\range\.gradle\caches\transforms-4\37dd57a254e2932c1142d6b0340d7e19\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+50        android:protectionLevel="signature" />
+50-->[androidx.core:core:1.12.0] C:\Users\range\.gradle\caches\transforms-4\37dd57a254e2932c1142d6b0340d7e19\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+51
+52    <uses-permission android:name="com.example.sleepmonitor.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+52-->[androidx.core:core:1.12.0] C:\Users\range\.gradle\caches\transforms-4\37dd57a254e2932c1142d6b0340d7e19\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+52-->[androidx.core:core:1.12.0] C:\Users\range\.gradle\caches\transforms-4\37dd57a254e2932c1142d6b0340d7e19\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+53
+54    <application
+54-->C:\Users\range\Documents\Edel\movile app\movile-app\app\src\main\AndroidManifest.xml:40:5-82:19
+55        android:allowBackup="true"
+55-->C:\Users\range\Documents\Edel\movile app\movile-app\app\src\main\AndroidManifest.xml:41:9-35
+56        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+56-->[androidx.core:core:1.12.0] C:\Users\range\.gradle\caches\transforms-4\37dd57a254e2932c1142d6b0340d7e19\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
+57        android:dataExtractionRules="@xml/data_extraction_rules"
+57-->C:\Users\range\Documents\Edel\movile app\movile-app\app\src\main\AndroidManifest.xml:42:9-65
+58        android:debuggable="true"
+59        android:extractNativeLibs="false"
+60        android:fullBackupContent="@xml/backup_rules"
+60-->C:\Users\range\Documents\Edel\movile app\movile-app\app\src\main\AndroidManifest.xml:43:9-54
+61        android:label="@string/app_name"
+61-->C:\Users\range\Documents\Edel\movile app\movile-app\app\src\main\AndroidManifest.xml:45:9-41
+62        android:supportsRtl="true"
+62-->C:\Users\range\Documents\Edel\movile app\movile-app\app\src\main\AndroidManifest.xml:47:9-35
+63        android:testOnly="true"
+64        android:theme="@style/Theme.SleepMonitor" >
+64-->C:\Users\range\Documents\Edel\movile app\movile-app\app\src\main\AndroidManifest.xml:48:9-50
+65
+66        <!-- Actividad principal -->
+67        <activity
+67-->C:\Users\range\Documents\Edel\movile app\movile-app\app\src\main\AndroidManifest.xml:52:9-61:20
+68            android:name="com.example.sleepmonitor.MainActivity"
+68-->C:\Users\range\Documents\Edel\movile app\movile-app\app\src\main\AndroidManifest.xml:53:13-41
+69            android:exported="true"
+69-->C:\Users\range\Documents\Edel\movile app\movile-app\app\src\main\AndroidManifest.xml:54:13-36
+70            android:screenOrientation="portrait"
+70-->C:\Users\range\Documents\Edel\movile app\movile-app\app\src\main\AndroidManifest.xml:55:13-49
+71            android:theme="@style/Theme.SleepMonitor" >
+71-->C:\Users\range\Documents\Edel\movile app\movile-app\app\src\main\AndroidManifest.xml:56:13-54
+72            <intent-filter>
+72-->C:\Users\range\Documents\Edel\movile app\movile-app\app\src\main\AndroidManifest.xml:57:13-60:29
+73                <action android:name="android.intent.action.MAIN" />
+73-->C:\Users\range\Documents\Edel\movile app\movile-app\app\src\main\AndroidManifest.xml:58:17-69
+73-->C:\Users\range\Documents\Edel\movile app\movile-app\app\src\main\AndroidManifest.xml:58:25-66
+74
+75                <category android:name="android.intent.category.LAUNCHER" />
+75-->C:\Users\range\Documents\Edel\movile app\movile-app\app\src\main\AndroidManifest.xml:59:17-77
+75-->C:\Users\range\Documents\Edel\movile app\movile-app\app\src\main\AndroidManifest.xml:59:27-74
+76            </intent-filter>
+77        </activity>
+78
+79        <!-- Servicio Bluetooth -->
+80        <service
+80-->C:\Users\range\Documents\Edel\movile app\movile-app\app\src\main\AndroidManifest.xml:64:9-68:63
+81            android:name="com.example.sleepmonitor.service.BluetoothService"
+81-->C:\Users\range\Documents\Edel\movile app\movile-app\app\src\main\AndroidManifest.xml:65:13-53
+82            android:enabled="true"
+82-->C:\Users\range\Documents\Edel\movile app\movile-app\app\src\main\AndroidManifest.xml:66:13-35
+83            android:exported="false"
+83-->C:\Users\range\Documents\Edel\movile app\movile-app\app\src\main\AndroidManifest.xml:67:13-37
+84            android:foregroundServiceType="connectedDevice" />
+84-->C:\Users\range\Documents\Edel\movile app\movile-app\app\src\main\AndroidManifest.xml:68:13-60
+85
+86        <!-- Receptor para eventos del sistema -->
+87        <receiver
+87-->C:\Users\range\Documents\Edel\movile app\movile-app\app\src\main\AndroidManifest.xml:71:9-80:20
+88            android:name="com.example.sleepmonitor.receiver.BluetoothStateReceiver"
+88-->C:\Users\range\Documents\Edel\movile app\movile-app\app\src\main\AndroidManifest.xml:72:13-60
+89            android:enabled="true"
+89-->C:\Users\range\Documents\Edel\movile app\movile-app\app\src\main\AndroidManifest.xml:73:13-35
+90            android:exported="false" >
+90-->C:\Users\range\Documents\Edel\movile app\movile-app\app\src\main\AndroidManifest.xml:74:13-37
+91            <intent-filter>
+91-->C:\Users\range\Documents\Edel\movile app\movile-app\app\src\main\AndroidManifest.xml:75:13-79:29
+92                <action android:name="android.bluetooth.adapter.action.STATE_CHANGED" />
+92-->C:\Users\range\Documents\Edel\movile app\movile-app\app\src\main\AndroidManifest.xml:76:17-89
+92-->C:\Users\range\Documents\Edel\movile app\movile-app\app\src\main\AndroidManifest.xml:76:25-86
+93                <action android:name="android.bluetooth.device.action.ACL_CONNECTED" />
+93-->C:\Users\range\Documents\Edel\movile app\movile-app\app\src\main\AndroidManifest.xml:77:17-88
+93-->C:\Users\range\Documents\Edel\movile app\movile-app\app\src\main\AndroidManifest.xml:77:25-85
+94                <action android:name="android.bluetooth.device.action.ACL_DISCONNECTED" />
+94-->C:\Users\range\Documents\Edel\movile app\movile-app\app\src\main\AndroidManifest.xml:78:17-91
+94-->C:\Users\range\Documents\Edel\movile app\movile-app\app\src\main\AndroidManifest.xml:78:25-88
+95            </intent-filter>
+96        </receiver>
+97
+98        <provider
+98-->[androidx.emoji2:emoji2:1.2.0] C:\Users\range\.gradle\caches\transforms-4\a418f5e42e9f80ea5dd549575bed2b0c\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+99            android:name="androidx.startup.InitializationProvider"
+99-->[androidx.emoji2:emoji2:1.2.0] C:\Users\range\.gradle\caches\transforms-4\a418f5e42e9f80ea5dd549575bed2b0c\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+100            android:authorities="com.example.sleepmonitor.androidx-startup"
+100-->[androidx.emoji2:emoji2:1.2.0] C:\Users\range\.gradle\caches\transforms-4\a418f5e42e9f80ea5dd549575bed2b0c\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+101            android:exported="false" >
+101-->[androidx.emoji2:emoji2:1.2.0] C:\Users\range\.gradle\caches\transforms-4\a418f5e42e9f80ea5dd549575bed2b0c\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+102            <meta-data
+102-->[androidx.emoji2:emoji2:1.2.0] C:\Users\range\.gradle\caches\transforms-4\a418f5e42e9f80ea5dd549575bed2b0c\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+103                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+103-->[androidx.emoji2:emoji2:1.2.0] C:\Users\range\.gradle\caches\transforms-4\a418f5e42e9f80ea5dd549575bed2b0c\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+104                android:value="androidx.startup" />
+104-->[androidx.emoji2:emoji2:1.2.0] C:\Users\range\.gradle\caches\transforms-4\a418f5e42e9f80ea5dd549575bed2b0c\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+105            <meta-data
+105-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\range\.gradle\caches\transforms-4\887aa768c0caed0c2a53a267e44ded3e\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
+106                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+106-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\range\.gradle\caches\transforms-4\887aa768c0caed0c2a53a267e44ded3e\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
+107                android:value="androidx.startup" />
+107-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\range\.gradle\caches\transforms-4\887aa768c0caed0c2a53a267e44ded3e\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
+108            <meta-data
+108-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\range\.gradle\caches\transforms-4\8a956380ef50737347c8b23e3b3c26ed\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+109                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+109-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\range\.gradle\caches\transforms-4\8a956380ef50737347c8b23e3b3c26ed\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+110                android:value="androidx.startup" />
+110-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\range\.gradle\caches\transforms-4\8a956380ef50737347c8b23e3b3c26ed\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+111        </provider>
+112
+113        <uses-library
+113-->[androidx.window:window:1.0.0] C:\Users\range\.gradle\caches\transforms-4\d487ed188ee680de4aa44b8af69377ec\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+114            android:name="androidx.window.extensions"
+114-->[androidx.window:window:1.0.0] C:\Users\range\.gradle\caches\transforms-4\d487ed188ee680de4aa44b8af69377ec\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+115            android:required="false" />
+115-->[androidx.window:window:1.0.0] C:\Users\range\.gradle\caches\transforms-4\d487ed188ee680de4aa44b8af69377ec\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+116        <uses-library
+116-->[androidx.window:window:1.0.0] C:\Users\range\.gradle\caches\transforms-4\d487ed188ee680de4aa44b8af69377ec\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+117            android:name="androidx.window.sidecar"
+117-->[androidx.window:window:1.0.0] C:\Users\range\.gradle\caches\transforms-4\d487ed188ee680de4aa44b8af69377ec\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+118            android:required="false" />
+118-->[androidx.window:window:1.0.0] C:\Users\range\.gradle\caches\transforms-4\d487ed188ee680de4aa44b8af69377ec\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+119
+120        <service
+120-->[androidx.room:room-runtime:2.6.1] C:\Users\range\.gradle\caches\transforms-4\8bedf313db6c6e396f36ba1abaf037d1\transformed\room-runtime-2.6.1\AndroidManifest.xml:24:9-28:63
+121            android:name="androidx.room.MultiInstanceInvalidationService"
+121-->[androidx.room:room-runtime:2.6.1] C:\Users\range\.gradle\caches\transforms-4\8bedf313db6c6e396f36ba1abaf037d1\transformed\room-runtime-2.6.1\AndroidManifest.xml:25:13-74
+122            android:directBootAware="true"
+122-->[androidx.room:room-runtime:2.6.1] C:\Users\range\.gradle\caches\transforms-4\8bedf313db6c6e396f36ba1abaf037d1\transformed\room-runtime-2.6.1\AndroidManifest.xml:26:13-43
+123            android:exported="false" />
+123-->[androidx.room:room-runtime:2.6.1] C:\Users\range\.gradle\caches\transforms-4\8bedf313db6c6e396f36ba1abaf037d1\transformed\room-runtime-2.6.1\AndroidManifest.xml:27:13-37
+124
+125        <receiver
+125-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\range\.gradle\caches\transforms-4\8a956380ef50737347c8b23e3b3c26ed\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+126            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+126-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\range\.gradle\caches\transforms-4\8a956380ef50737347c8b23e3b3c26ed\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+127            android:directBootAware="false"
+127-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\range\.gradle\caches\transforms-4\8a956380ef50737347c8b23e3b3c26ed\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+128            android:enabled="true"
+128-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\range\.gradle\caches\transforms-4\8a956380ef50737347c8b23e3b3c26ed\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+129            android:exported="true"
+129-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\range\.gradle\caches\transforms-4\8a956380ef50737347c8b23e3b3c26ed\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+130            android:permission="android.permission.DUMP" >
+130-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\range\.gradle\caches\transforms-4\8a956380ef50737347c8b23e3b3c26ed\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+131            <intent-filter>
+131-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\range\.gradle\caches\transforms-4\8a956380ef50737347c8b23e3b3c26ed\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+132                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+132-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\range\.gradle\caches\transforms-4\8a956380ef50737347c8b23e3b3c26ed\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+132-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\range\.gradle\caches\transforms-4\8a956380ef50737347c8b23e3b3c26ed\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+133            </intent-filter>
+134            <intent-filter>
+134-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\range\.gradle\caches\transforms-4\8a956380ef50737347c8b23e3b3c26ed\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+135                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+135-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\range\.gradle\caches\transforms-4\8a956380ef50737347c8b23e3b3c26ed\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+135-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\range\.gradle\caches\transforms-4\8a956380ef50737347c8b23e3b3c26ed\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+136            </intent-filter>
+137            <intent-filter>
+137-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\range\.gradle\caches\transforms-4\8a956380ef50737347c8b23e3b3c26ed\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+138                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+138-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\range\.gradle\caches\transforms-4\8a956380ef50737347c8b23e3b3c26ed\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+138-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\range\.gradle\caches\transforms-4\8a956380ef50737347c8b23e3b3c26ed\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+139            </intent-filter>
+140            <intent-filter>
+140-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\range\.gradle\caches\transforms-4\8a956380ef50737347c8b23e3b3c26ed\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+141                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+141-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\range\.gradle\caches\transforms-4\8a956380ef50737347c8b23e3b3c26ed\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+141-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\range\.gradle\caches\transforms-4\8a956380ef50737347c8b23e3b3c26ed\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+142            </intent-filter>
+143        </receiver>
+144    </application>
+145
+146</manifest>

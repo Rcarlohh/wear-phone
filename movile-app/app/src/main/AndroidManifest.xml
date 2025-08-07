@@ -2,23 +2,40 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
-    <!-- Bluetooth permissions for API 31+ -->
-    <uses-permission android:name="android.permission.BLUETOOTH" />
-    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <!-- Permisos Bluetooth tradicionales -->
+    <uses-permission android:name="android.permission.BLUETOOTH"
+        android:maxSdkVersion="30" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"
+        android:maxSdkVersion="30" />
+
+    <!-- Permisos Bluetooth para API 31+ (Android 12+) -->
     <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
     <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE" />
+
+    <!-- Permisos de ubicación requeridos para escaneo Bluetooth -->
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-    
-    <!-- Health data permissions -->
+
+    <!-- Permiso para datos de actividad física -->
     <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION" />
-    
-    <!-- Internet permission for data sync -->
+
+    <!-- Permiso de Internet para sincronización de datos -->
     <uses-permission android:name="android.permission.INTERNET" />
 
+    <!-- Permiso para mantener la CPU activa durante el monitoreo -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <!-- Permiso para ejecutar en primer plano -->
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <!-- Características de hardware requeridas -->
     <uses-feature
         android:name="android.hardware.bluetooth"
         android:required="true" />
+    <uses-feature
+        android:name="android.hardware.bluetooth_le"
+        android:required="false" />
 
     <application
         android:allowBackup="true"
@@ -30,22 +47,38 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SleepMonitor"
         tools:targetApi="31">
-        
+
+        <!-- Actividad principal -->
         <activity
             android:name=".MainActivity"
             android:exported="true"
+            android:screenOrientation="portrait"
             android:theme="@style/Theme.SleepMonitor">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        
+
+        <!-- Servicio Bluetooth -->
         <service
             android:name=".service.BluetoothService"
             android:enabled="true"
-            android:exported="false" />
-            
+            android:exported="false"
+            android:foregroundServiceType="connectedDevice" />
+
+        <!-- Receptor para eventos del sistema -->
+        <receiver
+            android:name=".receiver.BluetoothStateReceiver"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.bluetooth.adapter.action.STATE_CHANGED" />
+                <action android:name="android.bluetooth.device.action.ACL_CONNECTED" />
+                <action android:name="android.bluetooth.device.action.ACL_DISCONNECTED" />
+            </intent-filter>
+        </receiver>
+
     </application>
 
-</manifest> 
+</manifest>
