@@ -4,7 +4,7 @@
             "outputFile": "com.example.sleepmonitor.app-mergeDebugResources-52:/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\range\\.gradle\\caches\\transforms-3\\5490b645e9d6a61333b77d70f2a2a530\\transformed\\core-1.12.0\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\range\\.gradle\\caches\\transforms-3\\cfab36bc37caa9a032395b73531c3404\\transformed\\core-1.12.0\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\range\\.gradle\\caches\\transforms-3\\1ae08651db4bbb07f10e1945a5f6d854\\transformed\\appcompat-1.6.1\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\range\\.gradle\\caches\\transforms-3\\74113b173618f727409bb6a1504fde45\\transformed\\appcompat-1.6.1\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
